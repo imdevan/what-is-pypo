@@ -33,7 +33,7 @@ export const CTA = () => {
                       key={i}
                       className="inline-block group-hover:[animation:bounce-once_0.6s_ease-in-out_1]"
                       style={{
-                        animationDelay: `${i * 0.05}s`
+                        animationDelay: `${(i * 0.05) + 3.2360679774}s` // 2 * the golden ratio; because why not
                       }}
                     >
                       {char === " " ? "\u00A0" : char}
