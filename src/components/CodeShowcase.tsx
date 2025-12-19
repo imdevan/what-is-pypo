@@ -5,9 +5,14 @@ import "@/styles/prism-synthwave84-custom.css";
 
 const codeExamples = [
   {
-    title: "Mono Repo",
+    title: "Quick Start",
     comment: `# turbo package manager on the bun runtime`,
-    code: `# one-line quickstart script
+    code: `# assuming a docker daemon is running
+
+# clone the repo
+git clone https://github.com/imdevan/pypo project_name && cd cd project_name
+
+# turbo repo build manager can run back and frontend :)
 bun i && bun dev`
   },
 
@@ -27,10 +32,10 @@ bun i && bun dev`
     title: "DB",
     comment: "# convient built in scripts",
     code: `# generate db migrations easily
-turbo db:migrate
+bun db:migrate
 
 # generate frontend queries from python models
-turbo db:sync`
+bun db:sync`
   }
 ];
 
